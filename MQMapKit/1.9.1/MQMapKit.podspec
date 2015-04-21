@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MQMapKit"
-  s.version      = "2.0-Beta1"
+  s.version      = "1.9.1"
   s.summary      = "Mapkit by MapQuest"
   s.description  = <<-DESC
                     Mapkit by MapQuest.
