@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
                     DESC
   s.homepage     = "http://www.mapquest.com"
   s.license      = 'Commercial'
-  s.authors       = { "Johnathan Lansing" => "johnathan.lansing@mapquest.com", "David Gish" => "david.gish@mapquest.com","Fabian Canas" => "fabian.canas@mapquest.com" }
+  s.authors       = { "Johnathan Lansing" => "johnathan.lansing@mapquest.com", "John O'Dwyer" => "john.odwyer@mapquest.com" }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "ssh://git@stash.ops.aol.com:2022/mapquest_mobile/mq-mapkit-ios.git", :tag => s.version }
+  s.source       = { :git => "git@github.com:MapQuest/mq-mapkit-ios.git", :tag => s.version }
 
   s.frameworks   = 'CoreLocation', 'OpenGLES', 'CoreText', 'MobileCoreServices', 'SystemConfiguration', 'GLKit', 'Security', 'AdSupport', 'Foundation'
   s.libraries = 'c++', 'z'
