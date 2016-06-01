@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors      = { "MapQuest" => "support@mapquest.com"}
   s.platform     = :ios, "7.0"
   
-  s.source = { :http => "http://artifactory.cloud.mapquest.com/artifactory/et-ios-binaries/MapQuestMaps-3.2.1-1.0.zip" }
+  s.source = { :http => "http://artifactory.cloud.mapquest.com/artifactory/et-ios-binaries/MQMapboxMaps-3.2.1-1.0.zip" }
   s.resources    = "Mapbox.bundle"
   s.preserve_paths      = "Mapbox.framework"
   s.vendored_frameworks = "Mapbox.framework"
