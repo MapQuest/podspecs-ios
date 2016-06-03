@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.resources = "Mapbox.bundle"
   s.preserve_paths = "Mapbox.framework"
   s.vendored_frameworks = "Mapbox.framework"
-  s.frameworks = "CoreGraphics", "CoreLocation", "Foundation", "QuartzCore", "UIKit", "GLKit"
-  s.libraries = "sqlite3", "z"
+  #s.frameworks = "CoreGraphics", "CoreLocation", "Foundation", "QuartzCore", "UIKit", "GLKit"
+  s.libraries = "c++"
 end
