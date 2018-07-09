@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.source =    { :http => "http://artifactory.cloud.mapquest.com/artifactory/et-ios-binaries/MapQuestMaps-4.0.0.zip" }
   s.dependency 'Mapbox-iOS-SDK', '4.1.0'
-  s.dependency 'MQCore', '1.0.0-beta.6'
+  s.dependency 'MQCore', '1.0.0-beta.7'
   s.preserve_paths = "MapQuestMaps-4.0.0/MapQuestMaps.framework"
   s.vendored_frameworks = "MapQuestMaps-4.0.0/MapQuestMaps.framework"
   s.module_name = 'MapQuestMaps'
